@@ -1,0 +1,247 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+
+header {
+  background-color: white;
+}
+body {
+ background-color: #e5ffe6; 
+}
+
+
+section {
+class = "SecP"
+}
+
+.ColorMain {
+  font-size: 35px;
+  text-align: left;
+  font-family: Verdana;
+  margin: 10px;
+  width: 100%; 
+  margin-top: 2em;
+  display: block;
+  background-color:#e5ffe6;
+  color: #004d21
+
+}
+
+
+.Mainpg {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+  width: 80%;
+  display: box;
+  padding: 2em;
+  background-color:#fffaeb;
+  border: 5px solid #004d21;
+  color: #000000
+}
+
+
+.Quote {
+  font-size: 30px;
+  width: 40%
+  padding: 1em;
+}
+
+.img1 {
+  margin-top: 5em;
+  margin-left: 2em;
+  width: 40%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+
+
+/* STYLE IMAGES */
+
+/* Image Layering Home Page */
+.container  {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#CovPhoto {
+  opacity: 80%;
+}
+/* Words on Image Home Page */
+.TitleM {
+  background-color: #fffaeb;
+  opacity: 80%;
+  color: black;
+  padding: 2em;
+  border: 5px solid #004d21;
+  font-size: 30px;
+  font-family: Verdana;
+  }
+
+
+#Titles {
+  font-size: 50px;
+  font-family: Verdana;
+}
+
+/* Side By Side bottom of home Page */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+  
+}
+
+
+/* Top of MoreInfo Page */
+.T2 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 50px;
+  color: #004d21;
+  
+}
+
+.paperbag {
+  width: 20%;
+  img-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+/* The Sectioning Stuff */
+
+.SecT {
+  text-align: center;
+  font-type: underline;
+  font-family: Verdana;
+  font-size: 35px;
+  margin-top: 50px;
+  color: #004d21;
+}
+
+.SecP {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+  background-color:#fffaeb;
+  border: 5px solid #004d21;
+  color: #00000;
+  padding: 2em;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Map {
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+/* How to HELP */
+.giant {
+  width: 20%;
+  img-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.button {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+  background-color:#fffaeb;
+  border: 5px solid #004d21;
+  color: #00000;
+  padding: 2em;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+}
+
+/* STYLE NAV BAR */
+ul {
+  background-color: #c1e6c3;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: #004d21; 
+  font-size: 1.3em;
+  padding: 1em;
+  font-family: Verdana;
+}
+
+li a:hover {
+  background-color: #e5ffe6
+}
+
+.navbar1 { background-color: #c1e6c3 !important; 
+         text-align: center;
+         padding: 1em;}
+
+
+/* STYLE BUTTONS */
+.ButtonT {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 30px;
+  font-family: Verdana;
+}
+.ButtonA {
+  text-align:center;
+}
+
+#myButton {
+  background-color: #c1e6c3;
+  font-size: 20px;
+  margin-top: 2em;
+  padding: 1em;
+  font-family: Verdana;
+  border-radius: 12px;
+}
+
+#fact {
+  margin-top: 1em;
+}
+
+.FactG {
+  background-color: #ffffff;
+}
+/* ADD MORE! */
